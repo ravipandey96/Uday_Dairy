@@ -1,0 +1,63 @@
+1. Goto start and control panel. Select administrative tools.
+
+2. In that select DataSources (ODBC).
+
+3. Click on the right side pane. click Add button
+
+4. I selected Microsoft Access Driver [*mdb]
+
+5. click finish
+
+6. Goto select and find the databse name on the drive. Select the location. (Here you are finding the database file you want)
+
+7. Once you have found the file click okay
+
+8. Leave system database has none
+
+9. Put a name in the Datasource call it what ever you want
+
+10. go to right panel and click okay
+
+11. Find the Dsn name added to the list. (Just to make sure its there)
+
+ 
+
+ 
+
+Now we set that up we now setup Ireporting
+
+1. Open it up
+
+2. Click data on the top menu its next to Format
+
+3. click Connections/ Datasources
+
+4. Click New button on the right panel
+
+5. Select Database JDBC connection
+
+6 .Click next
+
+7. Name : Type a name in call it what ever you want
+
+8. JDBC Driver: sun.jdbc.odbc.JdbcOdbcDriver
+
+9. JDBC URL: jdbc:odbc:???????
+
+10. In the question marks you put the name you called the datasource on step 9 on how to setup setup a a DSN for Access database
+
+11. Server address: leave blank
+
+12. Database: leave blank
+
+13. Database: leave blank
+
+14. Username: leave blank
+
+15. Password: leave blank
+
+16. Test it make sure it connects okay
+
+17. Click Save
+
+18. Select the datasource you have just done and click set as default
